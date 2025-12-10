@@ -66,6 +66,7 @@ function App() {
 
   return (
     <div className="page">
+      <Analytics />
       <div className="shell">
         <header className="hero">
           <div className="hero-top">
