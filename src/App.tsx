@@ -26,7 +26,6 @@ function App() {
   useEffect(() => {
     if (!activeId && installations.length) {
       setActiveId(installations[0].id)
-      setViewerId(installations[0].id)
     }
     if (activeId && installations.length) {
       setActiveId(installations[0].id)
