@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next'
 import { LegendPanel } from './components/LegendPanel'
 import { LanguageSwitcher } from './components/LanguageSwitcher'
 import { MapPanel } from './components/MapPanel'
+import { Analytics } from "@vercel/analytics/react"
 import { ViewerOverlay } from './components/ViewerOverlay'
 import { installations } from './data/installations'
 import './App.css'
@@ -26,6 +27,9 @@ function App() {
     if (!activeId && installations.length) {
       setActiveId(installations[0].id)
       setViewerId(installations[0].id)
+    }
+    if (activeId && installations.length) {
+      setActiveId(installations[0].id)
     }
   }, [activeId])
 
