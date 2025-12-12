@@ -46,7 +46,7 @@ export const installations: Installation[] = [
     coords: { xPct: 83, yPct: 24 },
     badges: ['International'],
     model: {
-      glb: '/sample.glb',
+      glb: '/lma.glb',
     },
     artistImage: '/lettersmac.png',
     annotationImage: '/lm.png',
@@ -78,7 +78,7 @@ export const installations: Installation[] = [
     coords: { xPct: 83.5, yPct: 39.8 },
     badges: ['International'],
     model: {
-      glb: '/sample.glb',
+      glb: '/curve.glb',
     },
     artistImage: '/unplan.png',
     annotationImage: '/up.png',
@@ -110,7 +110,7 @@ export const installations: Installation[] = [
     coords: { xPct: 46, yPct: 67 },
     badges: ['International'],
     model: {
-      glb: '/sample.glb',
+      glb: '/mpp.glb',
     },
     artistImage: '/multiplace.png',
     annotationImage: '/mp.png',
@@ -142,7 +142,7 @@ export const installations: Installation[] = [
     coords: { xPct: 44, yPct: 21 },
     badges: ['Local'],
     model: {
-      glb: '/sample.glb',
+      glb: '/rtt.glb',
     },
     artistImage: '/resonat.png',
     annotationImage: '/rt.png',
@@ -174,7 +174,7 @@ export const installations: Installation[] = [
     coords: { xPct: 65, yPct: 25.5 },
     badges: ['Local'],
     model: {
-      glb: '/sample.glb',
+      glb: '/fbb.glb',
     },
     artistImage: '/lifebegins.png',
     annotationImage: '/fb.png',
@@ -206,7 +206,7 @@ export const installations: Installation[] = [
     coords: { xPct: 25.5, yPct: 60 },
     badges: ['Local'],
     model: {
-      glb: '/sample.glb',
+      glb: '/tcc.glb',
     },
     artistImage: '/timecry.png',
     annotationImage: '/tc.png',
